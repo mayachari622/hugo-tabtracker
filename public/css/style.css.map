@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/Users/mayachari/cis3500/hugo-mock-landing-page",
+	"sourceRoot": "/Users/mayachari/cis3500/hugo-tabtracker",
 	"sources": [
 		"assets/sass/main.scss",
 		"themes/hugo-bootstrap-theme/assets/sass/bootstrap/_functions.scss",
