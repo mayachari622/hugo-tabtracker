@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /404.html
-Sitemap: https://mayachari622.github.io/hugo-chrome-extension/sitemap.xml
