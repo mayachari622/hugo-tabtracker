@@ -1,8 +1,7 @@
 author = "Maya, Arriella, Sid (Team 15)"
-baseURL = 'https://mayachari622.github.io/hugo-chrome-extension/'
+baseURL = 'https://arriellam.github.io/hugo-chrome-extension/'
 copyright = "Maya, Arriella, Sid (Team 15)"
 title = "TabTracker"
-
 
 timeZone = 'Europe/London'
 
@@ -13,38 +12,38 @@ defaultContentLanguageInSubdir = false
 theme = "hugo-bootstrap-theme"
 
 disableHugoGeneratorInject = true
-enableRobotsTXT = true
-enableGitInfo = true
 enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
 #sectionPagesMenu = "main"
 #googleAnalytics = "UA-1511XXXX-X"
 
 [frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = ["lastmod", ":fileModTime", ":default"]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  series = 'series'
-  author = "authors"
+author = "authors"
+category = "categories"
+series = 'series'
+tag = "tags"
 
 [sitemap]
-  changefreq = "weekly"
-  filename = "sitemap.xml"
-  priority = 0.5
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
 
 [permalinks]
 #  post = "/post/:title/"
 
 [module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.99.1"
-    max = ""
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "static"
-    target = "static"
+[module.hugoVersion]
+extended = true
+max = ""
+min = "0.99.1"
+[[module.mounts]]
+source = "assets"
+target = "assets"
+[[module.mounts]]
+source = "static"
+target = "static"
